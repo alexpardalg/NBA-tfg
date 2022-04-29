@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nba-model" />
+        <module name="nba-backend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="nba-backend" target="11" />
       <module name="nba-model" target="11" />
       <module name="NBA-tfg" target="11" />
     </bytecodeTargetLevel>
