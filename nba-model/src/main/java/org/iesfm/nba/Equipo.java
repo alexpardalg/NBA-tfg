@@ -7,11 +7,13 @@ public class Equipo {
 
     private String nombre;
     private String ciudad;
+    private Conferencia conferencia;
     private List<Jugador> jugadores;
 
-    public Equipo(String nombre, String ciudad, List<Jugador> jugadores) {
+    public Equipo(String nombre, String ciudad, Conferencia conferencia, List<Jugador> jugadores) {
         this.nombre = nombre;
         this.ciudad = ciudad;
+        this.conferencia = conferencia;
         this.jugadores = jugadores;
     }
 
@@ -31,6 +33,14 @@ public class Equipo {
         this.ciudad = ciudad;
     }
 
+    public Conferencia getConferencia() {
+        return conferencia;
+    }
+
+    public void setConferencia(Conferencia conferencia) {
+        this.conferencia = conferencia;
+    }
+
     public List<Jugador> getJugadores() {
         return jugadores;
     }
@@ -46,12 +56,13 @@ public class Equipo {
         Equipo equipo = (Equipo) o;
         return Objects.equals(nombre, equipo.nombre) &&
                 Objects.equals(ciudad, equipo.ciudad) &&
+                Objects.equals(conferencia, equipo.conferencia) &&
                 Objects.equals(jugadores, equipo.jugadores);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(nombre, ciudad, jugadores);
+        return Objects.hash(nombre, ciudad, conferencia, jugadores);
     }
 
     @Override
@@ -59,6 +70,7 @@ public class Equipo {
         return "Equipo{" +
                 "nombre='" + nombre + '\'' +
                 ", ciudad='" + ciudad + '\'' +
+                ", conferencia=" + conferencia +
                 ", jugadores=" + jugadores +
                 '}';
     }
