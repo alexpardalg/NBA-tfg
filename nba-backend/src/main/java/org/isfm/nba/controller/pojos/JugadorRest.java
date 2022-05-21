@@ -1,8 +1,11 @@
-package org.iesfm.nba;
+package org.isfm.nba.controller.pojos;
+
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Objects;
 
-public class Jugador {
+public class JugadorRest {
 
     private int id;
     private String nombre;
@@ -11,7 +14,13 @@ public class Jugador {
     private String equipo;
     private String conferencia;
 
-    public Jugador(int id, String nombre, String apellido, String posicion, String equipo, String conferencia) {
+    @JsonCreator
+    public JugadorRest(@JsonProperty(value = "id") int id,
+                       @JsonProperty(value = "nombre") String nombre,
+                       @JsonProperty(value = "apellido") String apellido,
+                       @JsonProperty(value = "posicion") String posicion,
+                       @JsonProperty(value = "nombre_equipo") String equipo,
+                       @JsonProperty(value = "conferencia") String conferencia) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -72,13 +81,13 @@ public class Jugador {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Jugador jugador = (Jugador) o;
-        return id == jugador.id &&
-                Objects.equals(nombre, jugador.nombre) &&
-                Objects.equals(apellido, jugador.apellido) &&
-                Objects.equals(posicion, jugador.posicion) &&
-                Objects.equals(equipo, jugador.equipo) &&
-                Objects.equals(conferencia, jugador.conferencia);
+        JugadorRest that = (JugadorRest) o;
+        return id == that.id &&
+                Objects.equals(nombre, that.nombre) &&
+                Objects.equals(apellido, that.apellido) &&
+                Objects.equals(posicion, that.posicion) &&
+                Objects.equals(equipo, that.equipo) &&
+                Objects.equals(conferencia, that.conferencia);
     }
 
     @Override
@@ -88,7 +97,7 @@ public class Jugador {
 
     @Override
     public String toString() {
-        return "Jugador{" +
+        return "JugadorRest{" +
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
