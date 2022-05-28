@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>NBA Database & Playground</title>
+        <script type="text/javascript" src="CrearEquipo.js"></script>
+        <link rel="stylesheet" type="text/css" href="Estilos/EstiloInicio.css">
+        <link rel="shortcut icon" href="Imagenes/Iconos/Build.gif"/>
+    </head>
+
+    <body >
+        <p><img src="Imagenes/CreaTuEquipo1.jpg" width="1900" height="300"></p>
+
+        <nav class="nav">
+            <ul class="menu_main">
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li class="desplegable"><a href="#">Conferencia Este</a>
+                    <ul class="sub-menu">
+                            <li><a style="color: white" href="InicioAtlantaHawks.html">Atlanta Hawks</a></li>
+                            <li><a style="color: white" href="InicioBostonCeltics.html">Boston Celtics</a></li>
+                            <li><a style="color: white" href="InicioBrooklynNets.html">Brooklyn Nets</a></li>
+                            <li><a style="color: white" href="InicioCharlotteHornets.html">Charlotte Hornets</a></li>
+                            <li><a style="color: white" href="InicioChicagoBulls.html">Chicago Bulls</a></li>
+                            <li><a style="color: white" href="InicioClevelandCavaliers.html">Cleveland Cavaliers</a></li>
+                            <li><a style="color: white" href="InicioDetroitPistons.html">Detroit Pistons</a></li>
+                            <li><a style="color: white" href="InicioIndianaPacers.html">Indiana Pacers</a></li>
+                            <li><a style="color: white" href="InicioMiamiHeat.html">Miami Heat</a></li>
+                            <li><a style="color: white" href="InicioMilwaukeeBucks.html">Milwaukee Bucks</a></li>
+                            <li><a style="color: white" href="InicioNewYorkKnicks.html">New York Knicks</a></li>
+                            <li><a style="color: white" href="InicioOrlandoMagic.html">Orlando Magic</a></li>
+                            <li><a style="color: white" href="InicioPhiladelphia76ers.html">Philadelphia 76ers</a></li>
+                            <li><a style="color: white" href="InicioTorontoRaptors.html">Toronto Raptors</a></li>
+                            <li><a style="color: white" href="InicioWashingtonWizards.html">Washington Wizards</a></li>
+                    </ul>
+                </li>
+                <li class="desplegable"><a href="#">Conferencia Oeste</a>
+                    <ul class="sub-menu">
+                            <li><a style="color: white" href="InicioDallasMavericks.html">Dallas Mavericks</a></li>
+                            <li><a style="color: white" href="InicioDenverNuggets.html">Denver Nuggets</a></li>
+                            <li><a style="color: white" href="InicioGoldenStateWarriors.html">Golden State Warriors</a></li>
+                            <li><a style="color: white" href="InicioHoustonRockets.html">Houston Rockets</a></li>
+                            <li><a style="color: white" href="InicioLosAngelesClippers.html">Los Angeles Clippers</a></li>
+                            <li><a style="color: white" href="InicioLosAngelesLakers.html">Los Angeles Lakers</a></li>
+                            <li><a style="color: white" href="InicioMemphisGrizzlies.html">Memphis Grizzlies</a></li>
+                            <li><a style="color: white" href="InicioMinnesotaTimberwolves.html">Minnesota Timberwolves</a></li>
+                            <li><a style="color: white" href="InicioNewOrleansPelicans.html">New Orleans Pelicans</a></li>
+                            <li><a style="color: white" href="InicioOklahomaCityThunder.html">Oklahoma City Thunder</a></li>
+                            <li><a style="color: white" href="InicioPhoenixSuns.html">Phoenix Suns</a></li>
+                            <li><a style="color: white" href="InicioPortlandTrailBlazers.html">Portland Trail Blazers</a></li>
+                            <li><a style="color: white" href="InicioSacramentoKings.html">Sacramento Kings</a></li>
+                            <li><a style="color: white" href="InicioSanAntonioSpurs.html">San Antonio Spurs</a></li>
+                            <li><a style="color: white" href="InicioUtahJazz.html">Utah Jazz</a></li>
+                    </ul>
+                </li>
+                <li><a href="Leyendas.html">Leyendas</a></li>
+                <li><a href="CrearEquipo.html">Crea tu propio equipo</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <header>
+                <h1>Bienvenido a la pagina para crear tu equipo de ensueño.</h1>
+            </header>
+
+            <section>
+                
+                <form>
+                    <h3>Introduce el nombre de tu Base:</h3>
+                    <label>Nombre: </label><input type="text" name="name" id="name">
+                    <label>Apellido: </label><input type="text" name="phone" id="phone">
+                    <input type="button" name="nuevo" onclick="newContact()" value="Add">
+                </form>
+
+                <form>
+                    <h3>Introduce el nombre de tu Escolta:</h3>
+                    <label>Nombre: </label><input type="text" name="name" id="name">
+                    <label>Apellido: </label><input type="text" name="phone" id="phone">
+                    <input type="button" name="nuevo" onclick="newContact()" value="Add">
+                </form>
+
+                <form>
+                    <h3>Introduce el nombre de tu Alero:</h3>
+                    <label>Nombre: </label><input type="text" name="name" id="name">
+                    <label>Apellido: </label><input type="text" name="phone" id="phone">
+                    <input type="button" name="nuevo" onclick="newContact()" value="Add">
+                </form>
+
+                <form>
+                    <h3>Introduce el nombre de tu Ala-Pivot:</h3>
+                    <label>Nombre: </label><input type="text" name="name" id="name">
+                    <label>Apellido: </label><input type="text" name="phone" id="phone">
+                    <input type="button" name="nuevo" onclick="newContact()" value="Add">
+                </form>
+
+                <form>
+                    <h3>Introduce el nombre de tu Pivot:</h3>
+                    <label>Nombre: </label><input type="text" name="name" id="name">
+                    <label>Apellido: </label><input type="text" name="phone" id="phone">
+                    <input type="button" name="nuevo" onclick="newContact()" value="Add">
+                </form>
+            </section>
+
+            <main>
+                <table id="contacts">
+                    <tr>
+                        <br>
+                        <th>Nombre</th>
+                        <br>
+                        <th>Apellido</th>
+                    </tr>
+                </table>
+            </main>
+        </div>
+    </body>
+</html>

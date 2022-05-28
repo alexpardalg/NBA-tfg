@@ -5,8 +5,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ConferenciaController {
+public class ConferenciaController  {
 
     @Autowired
     private ConferenciaDao conferenciaDao;
+
+    //@RequestMapping(method = RequestMethod.GET)
 }
