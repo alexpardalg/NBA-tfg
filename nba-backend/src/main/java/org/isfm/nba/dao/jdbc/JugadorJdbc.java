@@ -12,7 +12,8 @@ public class JugadorJdbc implements JugadorDao {
 
     private NamedParameterJdbcTemplate jdbc;
 
-    private final static String SELECT_JUGADORES = "SELECT * FROM jugador";
+    private final static String SELECT_JUGADORES = "SELECT * FROM jugador WHERE posicion= :posicion";
+    private final static String DELETE_JUGADOR = "DELETE FROM jugador WHERE posicion= :posicion";
 
     @Override
     public List<Jugador> listAll() {

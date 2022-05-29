@@ -28,5 +28,6 @@ public class JugadorController {
         }
     }
 
-
+//    @RequestMapping(method = RequestMethod.DELETE, path = "/conferencias/equipos/jugadores/{posicion}")
+//    public void borrarJugador(@RequestParam)
 }
