@@ -3,17 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>NBA Database & Playground</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script type="text/javascript" src="CrearEquipo.js"></script>
         <link rel="stylesheet" type="text/css" href="Estilos/EstiloInicio.css">
         <link rel="shortcut icon" href="Imagenes/Iconos/Build.gif"/>
     </head>
 
-    <body >
+    <body onload="loadJugadores()">
         <p><img src="Imagenes/CreaTuEquipo1.jpg" width="1900" height="300"></p>
 
         <nav class="nav">
             <ul class="menu_main">
-                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Index.html">Inicio</a></li>
                 <li class="desplegable"><a href="#">Conferencia Este</a>
                     <ul class="sub-menu">
                             <li><a style="color: white" href="InicioAtlantaHawks.html">Atlanta Hawks</a></li>
@@ -62,42 +63,16 @@
                 <h1>Bienvenido a la pagina para crear tu equipo de ensueño.</h1>
             </header>
 
-            <section>
-                
-                <form>
-                    <h3>Introduce el nombre de tu Base:</h3>
-                    <label>Nombre: </label><input type="text" name="name" id="name">
-                    <label>Apellido: </label><input type="text" name="phone" id="phone">
-                    <input type="button" name="nuevo" onclick="newContact()" value="Add">
-                </form>
+            <section id="posiciones">
+                <select id="posicion">
+                    <option value="bases">Bases</option>
+                    <option value="escoltas">Escolta</option>
+                    <option value="alero">Aleros</option>
+                    <option value="alaPivot">Ala-Pivots</option>
+                    <option value="pivot">Pivots</option>
+                </select>
 
-                <form>
-                    <h3>Introduce el nombre de tu Escolta:</h3>
-                    <label>Nombre: </label><input type="text" name="name" id="name">
-                    <label>Apellido: </label><input type="text" name="phone" id="phone">
-                    <input type="button" name="nuevo" onclick="newContact()" value="Add">
-                </form>
 
-                <form>
-                    <h3>Introduce el nombre de tu Alero:</h3>
-                    <label>Nombre: </label><input type="text" name="name" id="name">
-                    <label>Apellido: </label><input type="text" name="phone" id="phone">
-                    <input type="button" name="nuevo" onclick="newContact()" value="Add">
-                </form>
-
-                <form>
-                    <h3>Introduce el nombre de tu Ala-Pivot:</h3>
-                    <label>Nombre: </label><input type="text" name="name" id="name">
-                    <label>Apellido: </label><input type="text" name="phone" id="phone">
-                    <input type="button" name="nuevo" onclick="newContact()" value="Add">
-                </form>
-
-                <form>
-                    <h3>Introduce el nombre de tu Pivot:</h3>
-                    <label>Nombre: </label><input type="text" name="name" id="name">
-                    <label>Apellido: </label><input type="text" name="phone" id="phone">
-                    <input type="button" name="nuevo" onclick="newContact()" value="Add">
-                </form>
             </section>
 
             <main>

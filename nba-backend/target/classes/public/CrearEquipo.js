@@ -1,7 +1,7 @@
 function newContact() {
 	var nameInput=document.getElementById('name');
-	var phoneInput=document.getElementById('phone');
-	var concatJson={name: nameInput.value, phone: phoneInput.value};
+	var surnameInput=document.getElementById('surname');
+	var concatJson={name: nameInput.value, surname: surnameInput.value};
 	addContact(concatJson);
 }
 
@@ -13,15 +13,47 @@ function addContact(contact) {
 	var nameTd=document.createElement("td");
 	nameTd.appendChild(document.createTextNode(contact.name));
 
-	// Se crea el td con el teléfono
-	var phoneTd=document.createElement("td");
-	phoneTd.appendChild(document.createTextNode(contact.phone)); 
+	// Se crea el td con el apellido
+	var surnameTd=document.createElement("td");
+	surnameTd.appendChild(document.createTextNode(contact.surname));
 	
 	// Se crea el tr con el td del nombre y el del telefono
 	var contactTr=document.createElement("tr");
 	contactTr.appendChild(nameTd); 
-	contactTr.appendChild(phoneTd); 
+	contactTr.appendChild(surnameTd);
 
 	// Se añade el tr a la tabla
 	contactsTable.appendChild(contactTr);
+}
+
+function loadJugadores() {
+    $.get("/posiciones", funcion(posiciones){
+        let posicionesDiv = $("#posiciones");
+        for(posicion of posiciones) {
+            let posicionDiv = $("<div>");
+
+            let jugadoresSelect = $("<select>");
+            posicionesDiv.append(jugadoresSelect);
+            // Crear un DIV para bases
+            let params = {
+                "posicion": posicion
+            };
+            $.get("/jugadores", params, function(jugadores) {
+                for(jugador of jugadores){
+                    // AÑADIR EL JUDADOR A LA LISTA
+
+                    var select = document.getJugadoresByPosicion('posiciones')
+                    var text = select.options[select.selectIndex].text;
+                    console.log(text);
+                }
+            });
+
+            posicionesDiv.append(posicionDiv);
+        }
+    });
+}
+
+function loadJugadoresPosicion(posicion){
+        let posicionDiv = $("#"+posicion);
+        $.get("/jugadores")
 }
