@@ -26,7 +26,7 @@ public class JugadorController {
     }
 
     @RequestMapping(method = RequestMethod.GET, path = "/jugadores")
-    public List<Jugador> getJugador(@RequestParam(name = "posicion") String posicion){
+    public List<Jugador> getJugador(@RequestParam( required = false, name = "posicion") String posicion){
 
         if (posicion == null){
             return jugadorDao.listAll();
@@ -35,11 +35,5 @@ public class JugadorController {
         }
     }
 
-    @RequestMapping(method = RequestMethod.DELETE, path = "/jugadores/{id}")
-    public void borrarJugador(@PathParam("id") String jugadorId){
 
-//        if (jugadorDao.removeJugador(posicion) == 0){
-//            throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-//        }
-    }
 }
