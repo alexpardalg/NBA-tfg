@@ -6,14 +6,205 @@
   <component name="ChangeListManager">
     <list default="true" id="c19709eb-5a97-486f-878c-61cded8dbd48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/EquipoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/EquipoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/JugadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/JugadorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/JugadorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/JugadorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/jdbc/EquipoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/jdbc/EquipoJdbc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/jdbc/JugadorJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/jdbc/JugadorJdbc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/CrearEquipo.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/CrearEquipo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/CrearEquipo.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/CrearEquipo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasAtlantaHawks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasAtlantaHawks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasBostonCeltics.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasBostonCeltics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasBrooklynNets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasBrooklynNets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasCharlotteHornets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasCharlotteHornets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasChicagoBulls.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasChicagoBulls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasClevelandCavaliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasClevelandCavaliers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasDallasMavericks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasDallasMavericks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasDenverNuggets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasDenverNuggets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasDetroitPistons.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasDetroitPistons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasGoldenStateWarriors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasGoldenStateWarriors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasHoustonRockets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasHoustonRockets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasIndianaPacers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasIndianaPacers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasLeyendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasLeyendas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasLosAngelesClippers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasLosAngelesClippers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasLosAngelesLakers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasLosAngelesLakers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasMemphisGrizzlies.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasMemphisGrizzlies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasMiamiHeat.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasMiamiHeat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasMilwaukeeBucks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasMilwaukeeBucks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasMinnesotaTimberwolves.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasMinnesotaTimberwolves.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasNewOrleansPelicans.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasNewOrleansPelicans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasNewYorkKnicks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasNewYorkKnicks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasOklahomaCityThunder.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasOklahomaCityThunder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasOrlandoMagic.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasOrlandoMagic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasPhiladelphia76ers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasPhiladelphia76ers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasPhoenixSuns.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasPhoenixSuns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasPortlandTrailBlazers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasPortlandTrailBlazers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasSacramentoKings.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasSacramentoKings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasSanAntonioSpurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasSanAntonioSpurs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasTorontoRaptors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasTorontoRaptors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasUtahJazz.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasUtahJazz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasWashingtonWizards.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/EscoltasWashingtonWizards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioAtlantaHawks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioAtlantaHawks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioBostonCeltics.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioBostonCeltics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioBrooklynNets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioBrooklynNets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioCharlotteHornets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioCharlotteHornets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioChicagoBulls.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioChicagoBulls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioClevelandCavaliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioClevelandCavaliers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioDallasMavericks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioDallasMavericks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioDenverNuggets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioDenverNuggets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioDetroitPistons.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioDetroitPistons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioGoldenStateWarriors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioGoldenStateWarriors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioHoustonRockets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioHoustonRockets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioIndianaPacers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioIndianaPacers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioLosAngelesClippers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioLosAngelesClippers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioLosAngelesLakers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioLosAngelesLakers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioMemphisGrizzlies.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioMemphisGrizzlies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioMiamiHeat.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioMiamiHeat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioMilwaukeeBucks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioMilwaukeeBucks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioMinnesotaTimberwolves.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioMinnesotaTimberwolves.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioNewOrleansPelicans.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioNewOrleansPelicans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioNewYorkKnicks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioNewYorkKnicks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioOklahomaCityThunder.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioOklahomaCityThunder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioOrlandoMagic.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioOrlandoMagic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioPhiladelphia76ers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioPhiladelphia76ers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioPhoenixSuns.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioPhoenixSuns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioPortlandTrailBlazers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioPortlandTrailBlazers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioSacramentoKings.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioSacramentoKings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioSanAntonioSpurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioSanAntonioSpurs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioTorontoRaptors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioTorontoRaptors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioUtahJazz.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioUtahJazz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioWashingtonWizards.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioWashingtonWizards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/Leyendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/Leyendas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/Leyendas.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/Leyendas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/Leyendas2.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/Leyendas2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsAtlantaHawks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsAtlantaHawks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsBostonCeltics.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsBostonCeltics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsBrooklynNets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsBrooklynNets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsCharlotteHornets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsCharlotteHornets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsChicagoBulls.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsChicagoBulls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsClevelandCavaliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsClevelandCavaliers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsDallasMavericks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsDallasMavericks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsDenverNuggets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsDenverNuggets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsDetroitPistons.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsDetroitPistons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsGoldenStateWarriors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsGoldenStateWarriors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsHoustonRockets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsHoustonRockets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsIndianaPacers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsIndianaPacers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsLeyendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsLeyendas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsLosAngelesClippers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsLosAngelesClippers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsLosAngelesLakers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsLosAngelesLakers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsMemphisGrizzlies.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsMemphisGrizzlies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsMiamiHeat.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsMiamiHeat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsMilwaukeeBucks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsMilwaukeeBucks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsMinnesotaTimberwolves.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsMinnesotaTimberwolves.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsNewOrleansPelicans.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsNewOrleansPelicans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsNewYorkKnicks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsNewYorkKnicks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsOklahomaCityThunder.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsOklahomaCityThunder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsOrlandoMagic.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsOrlandoMagic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsPhiladelphia76ers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsPhiladelphia76ers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsPhoenixSuns.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsPhoenixSuns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsPortlandTrailBlazers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsPortlandTrailBlazers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsSacramentoKings.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsSacramentoKings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsSanAntonioSpurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsSanAntonioSpurs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsTorontoRaptors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsTorontoRaptors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsUtahJazz.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsUtahJazz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsWashingtonWizards.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/PivotsWashingtonWizards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/JugadorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/JugadorController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/CrearEquipo.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/CrearEquipo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/CrearEquipo.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/CrearEquipo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasAtlantaHawks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasAtlantaHawks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasBostonCeltics.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasBostonCeltics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasBrooklynNets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasBrooklynNets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasCharlotteHornets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasCharlotteHornets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasChicagoBulls.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasChicagoBulls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasClevelandCavaliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasClevelandCavaliers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasDallasMavericks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasDallasMavericks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasDenverNuggets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasDenverNuggets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasDetroitPistons.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasDetroitPistons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasGoldenStateWarriors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasGoldenStateWarriors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasHoustonRockets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasHoustonRockets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasIndianaPacers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasIndianaPacers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasLeyendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasLeyendas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasLosAngelesClippers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasLosAngelesClippers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasLosAngelesLakers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasLosAngelesLakers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasMemphisGrizzlies.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasMemphisGrizzlies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasMiamiHeat.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasMiamiHeat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasMilwaukeeBucks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasMilwaukeeBucks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasMinnesotaTimberwolves.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasMinnesotaTimberwolves.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasNewOrleansPelicans.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasNewOrleansPelicans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasNewYorkKnicks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasNewYorkKnicks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasOklahomaCityThunder.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasOklahomaCityThunder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasOrlandoMagic.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasOrlandoMagic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasPhiladelphia76ers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasPhiladelphia76ers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasPhoenixSuns.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasPhoenixSuns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasPortlandTrailBlazers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasPortlandTrailBlazers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasSacramentoKings.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasSacramentoKings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasSanAntonioSpurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasSanAntonioSpurs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasTorontoRaptors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasTorontoRaptors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasUtahJazz.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasUtahJazz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasWashingtonWizards.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/EscoltasWashingtonWizards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioAtlantaHawks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioAtlantaHawks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioBostonCeltics.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioBostonCeltics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioBrooklynNets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioBrooklynNets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioCharlotteHornets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioCharlotteHornets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioChicagoBulls.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioChicagoBulls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioClevelandCavaliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioClevelandCavaliers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioDallasMavericks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioDallasMavericks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioDenverNuggets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioDenverNuggets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioDetroitPistons.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioDetroitPistons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioGoldenStateWarriors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioGoldenStateWarriors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioHoustonRockets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioHoustonRockets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioIndianaPacers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioIndianaPacers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioLosAngelesClippers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioLosAngelesClippers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioLosAngelesLakers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioLosAngelesLakers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioMemphisGrizzlies.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioMemphisGrizzlies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioMiamiHeat.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioMiamiHeat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioMilwaukeeBucks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioMilwaukeeBucks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioMinnesotaTimberwolves.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioMinnesotaTimberwolves.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioNewOrleansPelicans.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioNewOrleansPelicans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioNewYorkKnicks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioNewYorkKnicks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioOklahomaCityThunder.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioOklahomaCityThunder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioOrlandoMagic.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioOrlandoMagic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioPhiladelphia76ers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioPhiladelphia76ers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioPhoenixSuns.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioPhoenixSuns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioPortlandTrailBlazers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioPortlandTrailBlazers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioSacramentoKings.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioSacramentoKings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioSanAntonioSpurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioSanAntonioSpurs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioTorontoRaptors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioTorontoRaptors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioUtahJazz.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioUtahJazz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioWashingtonWizards.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioWashingtonWizards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/Leyendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/Leyendas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/Leyendas2.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/Leyendas2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsAtlantaHawks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsAtlantaHawks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsBostonCeltics.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsBostonCeltics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsBrooklynNets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsBrooklynNets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsCharlotteHornets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsCharlotteHornets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsChicagoBulls.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsChicagoBulls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsClevelandCavaliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsClevelandCavaliers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsDallasMavericks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsDallasMavericks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsDenverNuggets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsDenverNuggets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsDetroitPistons.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsDetroitPistons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsGoldenStateWarriors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsGoldenStateWarriors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsHoustonRockets.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsHoustonRockets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsIndianaPacers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsIndianaPacers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsLeyendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsLeyendas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsLosAngelesClippers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsLosAngelesClippers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsLosAngelesLakers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsLosAngelesLakers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsMemphisGrizzlies.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsMemphisGrizzlies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsMiamiHeat.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsMiamiHeat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsMilwaukeeBucks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsMilwaukeeBucks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsMinnesotaTimberwolves.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsMinnesotaTimberwolves.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsNewOrleansPelicans.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsNewOrleansPelicans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsNewYorkKnicks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsNewYorkKnicks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsOklahomaCityThunder.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsOklahomaCityThunder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsOrlandoMagic.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsOrlandoMagic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsPhiladelphia76ers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsPhiladelphia76ers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsPhoenixSuns.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsPhoenixSuns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsPortlandTrailBlazers.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsPortlandTrailBlazers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsSacramentoKings.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsSacramentoKings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsSanAntonioSpurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsSanAntonioSpurs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsTorontoRaptors.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsTorontoRaptors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsUtahJazz.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsUtahJazz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsWashingtonWizards.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/PivotsWashingtonWizards.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +220,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
+        <option name="mavenHome" value="C:\Users\Peke122\OneDrive - I.E.S. Federica Montseny\Documentos\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -37,12 +228,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nba-backend/src/main/resources/public" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Peke122\IdeaProjects\TFG\NBA-tfg\nba-backend\src\main\resources\public" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.isfm.nba.Main" />
@@ -84,5 +277,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2151" height="332" key="GridCell.Tab.0.bottom" timestamp="1655250901512">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="2151" height="332" key="GridCell.Tab.0.bottom/0.0.2194.1194@0.0.2194.1194" timestamp="1655250901512" />
+    <state width="2151" height="332" key="GridCell.Tab.0.center" timestamp="1655250901512">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="2151" height="332" key="GridCell.Tab.0.center/0.0.2194.1194@0.0.2194.1194" timestamp="1655250901512" />
+    <state width="2151" height="332" key="GridCell.Tab.0.left" timestamp="1655250901512">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="2151" height="332" key="GridCell.Tab.0.left/0.0.2194.1194@0.0.2194.1194" timestamp="1655250901512" />
+    <state width="2151" height="332" key="GridCell.Tab.0.right" timestamp="1655250901512">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="2151" height="332" key="GridCell.Tab.0.right/0.0.2194.1194@0.0.2194.1194" timestamp="1655250901512" />
+    <state x="874" y="356" key="refactoring.ChangeSignatureDialog" timestamp="1655248670046">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="874" y="356" key="refactoring.ChangeSignatureDialog/0.0.2194.1194@0.0.2194.1194" timestamp="1655248670046" />
   </component>
 </project>

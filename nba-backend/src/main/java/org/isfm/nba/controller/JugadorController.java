@@ -35,5 +35,14 @@ public class JugadorController {
         }
     }
 
+//    @RequestMapping(method = RequestMethod.GET, path = "/jugadores/{nombre_equipo}")
+//    public List<Jugador> getJugadoresByTeam(@RequestParam( required = false, name = "nombre_equipo") String equipo){
+//
+//        if (equipo == "Leyendas"){
+//            return jugadorDao.listJugadoresByTeam(equipo);
+//        }else{
+//            return jugadorDao.listAll();
+//        }
+//    }
 
 }

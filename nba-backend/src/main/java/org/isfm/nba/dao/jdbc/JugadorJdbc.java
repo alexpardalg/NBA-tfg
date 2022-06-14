@@ -20,6 +20,7 @@ public class JugadorJdbc implements JugadorDao {
     private final static String SELECT_JUGADORES = "SELECT * FROM jugador";
     private final static String SELECT_JUGADORES_BYPOSICION = "SELECT * FROM jugador WHERE posicion= :posicion";
     private final static String SELECT_POSICION = "SELECT DISTINCT posicion FROM jugador";
+    private final static String SELECT_JUGADORES_BYTEAM = "SELECT * FROM jugador WHERE equipo= :nombre_equipo";
 
 
     private final static RowMapper<Jugador> JUGADOR_ROW_MAPPER = ((rs, rowNum) ->
@@ -62,4 +63,14 @@ public class JugadorJdbc implements JugadorDao {
                 )
         );
     }
+
+//    @Override
+//    public List<Jugador> listJugadoresByTeam(String equipo) {
+//        Map<String, Object> params = new HashMap<>();
+//        params.put("equipo", equipo);
+//
+//        return jdbc.query(SELECT_JUGADORES_BYTEAM,
+//                params,
+//                JUGADOR_ROW_MAPPER);
+//    }
 }

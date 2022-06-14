@@ -13,6 +13,9 @@ function loadTablajugadores(){
                             "posicion": posicion
                         };
              $.get("/jugadores", params, function(jugadores) {
+                    $.get("/jugadores"), function(jugadores){
+                        let equipo =
+                    }
                     for(jugador of jugadores){
                         let jugadorP = $("<p>").text(jugador.nombre + " " + jugador.apellido);
                             jugadoresTd.append(jugadorP);
