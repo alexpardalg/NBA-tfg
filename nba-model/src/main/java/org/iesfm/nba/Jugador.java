@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class Jugador {
 
+
     private int id;
     private String nombre;
     private String apellido;

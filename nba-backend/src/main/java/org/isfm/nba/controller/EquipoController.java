@@ -14,11 +14,10 @@ public class EquipoController {
     @Autowired
     private EquipoDao equipoDao;
 
-//    @RequestMapping(method = RequestMethod.GET, path = "/equipos/{nombre_equipo}")
-//    public Equipo getEquipo(@RequestBody Equipo equipo,
-//                            @RequestParam (required = false, name = "nombre_equipo") String nombreEquipo){
-//
-//    }
+    @RequestMapping(method = RequestMethod.GET, path = "/equipos/{nombre_equipo}")
+    public Equipo getEquipo(@PathVariable (name = "nombre_equipo") String equipo){
+        return equipoDao.getEquipo(equipo);
+    }
 
 
 }

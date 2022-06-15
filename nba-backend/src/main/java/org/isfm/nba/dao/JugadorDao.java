@@ -14,5 +14,7 @@ public interface JugadorDao {
 
     List<String> findPosiciones();
 
-//    List<Jugador> listJugadoresByTeam(String equipo);
+    List<Jugador> listJugadoresByTeam(String equipo);
+
+    List<Jugador> listJugadoresByTeamAndPosicion(String equipo, String posicion);
 }

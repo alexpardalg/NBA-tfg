@@ -1,4 +1,4 @@
-function loadTablajugadores(){
+function loadTablaLeyendas(){
     $.get("/posiciones", function(posiciones){
         let  posicionesTable = $("#posiciones");
         for(posicion of posiciones) {
@@ -12,10 +12,7 @@ function loadTablajugadores(){
              let params = {
                             "posicion": posicion
                         };
-             $.get("/jugadores", params, function(jugadores) {
-                    $.get("/jugadores"), function(jugadores){
-                        let equipo =
-                    }
+             $.get("/equipos/Leyendas/jugadores", params, function(jugadores) {
                     for(jugador of jugadores){
                         let jugadorP = $("<p>").text(jugador.nombre + " " + jugador.apellido);
                             jugadoresTd.append(jugadorP);

@@ -1,18 +1,16 @@
 package org.iesfm.nba;
 
-import java.util.List;
 import java.util.Objects;
 
 public class Equipo {
+    private final static String LEYENDAS= "Leyendas";
 
     private String nombre;
-    private Conferencia conferencia;
-    private List<Jugador> jugadores;
+    private String conferencia;
 
-    public Equipo(String nombre, Conferencia conferencia, List<Jugador> jugadores) {
+    public Equipo(String nombre, String conferencia) {
         this.nombre = nombre;
         this.conferencia = conferencia;
-        this.jugadores = jugadores;
     }
 
     public String getNombre() {
@@ -24,20 +22,12 @@ public class Equipo {
     }
 
 
-    public Conferencia getConferencia() {
+    public String getConferencia() {
         return conferencia;
     }
 
-    public void setConferencia(Conferencia conferencia) {
+    public void setConferencia(String conferencia) {
         this.conferencia = conferencia;
-    }
-
-    public List<Jugador> getJugadores() {
-        return jugadores;
-    }
-
-    public void setJugadores(List<Jugador> jugadores) {
-        this.jugadores = jugadores;
     }
 
     @Override
@@ -45,22 +35,19 @@ public class Equipo {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Equipo equipo = (Equipo) o;
-        return Objects.equals(nombre, equipo.nombre) &&
-                Objects.equals(conferencia, equipo.conferencia) &&
-                Objects.equals(jugadores, equipo.jugadores);
+        return Objects.equals(nombre, equipo.nombre) && Objects.equals(conferencia, equipo.conferencia);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(nombre, conferencia, jugadores);
+        return Objects.hash(nombre, conferencia);
     }
 
     @Override
     public String toString() {
         return "Equipo{" +
                 "nombre='" + nombre + '\'' +
-                ", conferencia=" + conferencia +
-                ", jugadores=" + jugadores +
+                ", conferencia='" + conferencia + '\'' +
                 '}';
     }
 }

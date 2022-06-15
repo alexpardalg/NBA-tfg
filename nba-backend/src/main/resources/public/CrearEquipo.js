@@ -25,7 +25,6 @@ function loadJugadores() {
     });
 }
 
-function loadJugadoresPosicion(posicion) {
-//        let posicionDiv = $("#"+posicion);
-//        $.get("/jugadores");
+function  {
+
 }

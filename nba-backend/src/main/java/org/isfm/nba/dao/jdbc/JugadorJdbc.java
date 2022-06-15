@@ -20,7 +20,8 @@ public class JugadorJdbc implements JugadorDao {
     private final static String SELECT_JUGADORES = "SELECT * FROM jugador";
     private final static String SELECT_JUGADORES_BYPOSICION = "SELECT * FROM jugador WHERE posicion= :posicion";
     private final static String SELECT_POSICION = "SELECT DISTINCT posicion FROM jugador";
-    private final static String SELECT_JUGADORES_BYTEAM = "SELECT * FROM jugador WHERE equipo= :nombre_equipo";
+    private final static String SELECT_JUGADORES_BYTEAM = "SELECT * FROM jugador WHERE nombre_equipo=:equipo";
+    private final static String SELECT_JUGADORES_BYTEAM_AND_POSITION = "SELECT * FROM jugador WHERE nombre_equipo=:equipo AND posicion=:posicion";
 
 
     private final static RowMapper<Jugador> JUGADOR_ROW_MAPPER = ((rs, rowNum) ->
@@ -64,13 +65,24 @@ public class JugadorJdbc implements JugadorDao {
         );
     }
 
-//    @Override
-//    public List<Jugador> listJugadoresByTeam(String equipo) {
-//        Map<String, Object> params = new HashMap<>();
-//        params.put("equipo", equipo);
-//
-//        return jdbc.query(SELECT_JUGADORES_BYTEAM,
-//                params,
-//                JUGADOR_ROW_MAPPER);
-//    }
+    @Override
+    public List<Jugador> listJugadoresByTeam(String equipo) {
+        Map<String, Object> params = new HashMap<>();
+        params.put("equipo", equipo);
+
+        return jdbc.query(SELECT_JUGADORES_BYTEAM,
+                params,
+                JUGADOR_ROW_MAPPER);
+    }
+
+    @Override
+    public List<Jugador> listJugadoresByTeamAndPosicion(String equipo, String posicion) {
+        Map<String, Object> params = new HashMap<>();
+        params.put("equipo", equipo);
+        params.put("posicion", posicion);
+
+        return jdbc.query(SELECT_JUGADORES_BYTEAM_AND_POSITION,
+                params,
+                JUGADOR_ROW_MAPPER);
+    }
 }
