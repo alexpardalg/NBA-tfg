@@ -25,6 +25,6 @@ function loadJugadores() {
     });
 }
 
-function  {
-
-}
+//function loadEquipos(){
+//    $.post("/equipo"), equipoJSON, function(equipo)
+//}

@@ -11,12 +11,6 @@ public class EquipoUsuarioRest {
     private String nombre;
     private List<Integer> idsJugador;
 
-    @JsonCreator
-    public EquipoUsuarioRest(@JsonProperty (value = "nombre" )String name,
-                             @JsonProperty (value = "idsJugador") List<Integer> idsJugador) {
-        this.nombre = name;
-        this.idsJugador = idsJugador;
-    }
 
     public String getNombre() {
         return nombre;

@@ -5,42 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19709eb-5a97-486f-878c-61cded8dbd48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/EquipoUsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/pojos/EquipoUsuarioRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/EquipoUsuarioDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/jdbc/EquipoUsuarioJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nba-model/src/main/java/org/iesfm/nba/EquipoUsuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/EquipoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/EquipoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/JugadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/JugadorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/EquipoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/EquipoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/JugadorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/JugadorDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/jdbc/EquipoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/jdbc/EquipoJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/jdbc/JugadorJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/jdbc/JugadorJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/nba.sql" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/nba.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/EquipoUsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/EquipoUsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/pojos/EquipoUsuarioRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/controller/pojos/EquipoUsuarioRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/EquipoUsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/EquipoUsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/jdbc/EquipoUsuarioJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/java/org/isfm/nba/dao/jdbc/EquipoUsuarioJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/CrearEquipo.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/CrearEquipo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/CrearEquipo.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/CrearEquipo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioAtlantaHawks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioAtlantaHawks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioNewYorkKnicks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/InicioNewYorkKnicks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/Leyendas.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/Leyendas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/Leyendas2.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/Leyendas2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/EquipoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/EquipoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/JugadorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/JugadorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/EquipoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/EquipoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/JugadorDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/JugadorDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/jdbc/EquipoJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/jdbc/EquipoJdbc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/jdbc/JugadorJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/jdbc/JugadorJdbc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioAtlantaHawks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioAtlantaHawks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioNewYorkKnicks.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/InicioNewYorkKnicks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/Leyendas.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/Leyendas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/public/Leyendas2.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/target/classes/public/Leyendas2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-model/src/main/java/org/iesfm/nba/Conferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-model/src/main/java/org/iesfm/nba/Conferencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-model/src/main/java/org/iesfm/nba/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-model/src/main/java/org/iesfm/nba/Equipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-model/src/main/java/org/iesfm/nba/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-model/src/main/java/org/iesfm/nba/Jugador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-model/target/classes/org/iesfm/nba/Conferencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/nba-model/target/classes/org/iesfm/nba/Conferencia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-model/target/classes/org/iesfm/nba/Equipo.class" beforeDir="false" afterPath="$PROJECT_DIR$/nba-model/target/classes/org/iesfm/nba/Equipo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-model/target/classes/org/iesfm/nba/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/nba-model/target/classes/org/iesfm/nba/Jugador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba-backend/src/main/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/ConferenciaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/EquipoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/EquipoUsuarioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/JugadorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/pojos/ConferenciaRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/pojos/EquipoRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/pojos/EquipoUsuarioRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/controller/pojos/JugadorRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/ConferenciaDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/EquipoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/EquipoUsuarioDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/JugadorDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/jdbc/ConferenciaJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/jdbc/EquipoJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/jdbc/EquipoUsuarioJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-backend/target/classes/org/isfm/nba/dao/jdbc/JugadorJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-model/src/main/java/org/iesfm/nba/EquipoUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/nba-model/src/main/java/org/iesfm/nba/EquipoUsuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +62,11 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nba-backend/src/main/resources/public" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Peke122\IdeaProjects\TFG\NBA-tfg\nba-backend\src\main\resources\public" />
@@ -110,6 +102,9 @@
       <updated>1654683609371</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -8,6 +8,10 @@ public class EquipoUsuario {
     private String nombre;
     private List<Integer> IdsJugadores;
 
+    public EquipoUsuario(String nombre, List<Integer> idsJugadores) {
+        this.nombre = nombre;
+        IdsJugadores = idsJugadores;
+    }
 
     public String getNombre() {
         return nombre;
